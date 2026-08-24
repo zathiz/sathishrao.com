@@ -70,12 +70,18 @@
   min-height:auto;
 }
 
-/* Match the visual spacing used by the other major card sections. */
-#standing .standing-grid{
-  margin-top:55px;
-}
+
 
 /* Keep recognition cards visually consistent after adding the new 2020 item. */
 #recognition .recognition-grid{
   margin-top:55px;
+}
+
+
+/* Version 10 — Professional Standing spacing correction */
+#standing .section-title{
+  margin-bottom:60px;
+}
+#standing .standing-grid{
+  margin-top:0;
 }
