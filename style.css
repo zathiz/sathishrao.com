@@ -8,3 +8,13 @@
 .amazon-note{margin:35px 0 0 43px;border:1px solid #2e3b50;padding:20px 22px;max-width:760px}.amazon-note span{display:block;font-size:9px;color:var(--accent);letter-spacing:.14em}.amazon-note b{display:block;font:700 15px Manrope;color:#dbe2eb;margin:7px 0}.amazon-note p{margin:0;color:#788699;font-size:11px}
 
 .impact-metric{display:inline-block;margin-left:8px;font:800 22px Manrope;letter-spacing:-.04em;color:var(--accent)}.impact-label{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:#7f8b9c;margin-left:4px}
+
+/* Version 5 refinements */
+.impact-grid{gap:20px}
+.impact-card{min-height:215px}
+.impact-metric{font-weight:800;color:inherit;display:inline}
+.impact-label{font-size:.9em;color:inherit}
+.career-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;border:0}
+.career-tiles .timeline-item{background:var(--paper);border:1px solid var(--line);padding:28px;min-height:210px}
+.membership-eyebrow{margin-bottom:32px}
+@media(max-width:800px){.career-tiles{grid-template-columns:1fr}}
