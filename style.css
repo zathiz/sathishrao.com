@@ -6,3 +6,5 @@
 @media(max-width:1000px){.standing-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:620px){.standing-grid{grid-template-columns:1fr}}
 .amazon-note{margin:35px 0 0 43px;border:1px solid #2e3b50;padding:20px 22px;max-width:760px}.amazon-note span{display:block;font-size:9px;color:var(--accent);letter-spacing:.14em}.amazon-note b{display:block;font:700 15px Manrope;color:#dbe2eb;margin:7px 0}.amazon-note p{margin:0;color:#788699;font-size:11px}
+
+.impact-metric{display:inline-block;margin-left:8px;font:800 22px Manrope;letter-spacing:-.04em;color:var(--accent)}.impact-label{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:#7f8b9c;margin-left:4px}
