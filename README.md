@@ -1,23 +1,27 @@
-# Professional GitHub Portfolio
+# Sathish Rao — Leadership & Professional Portfolio
 
-A responsive professional portfolio website designed for GitHub Pages.
+GitHub Pages-ready website emphasizing professional leadership, impact, research/authorship, judging, memberships, recognition and media visibility.
 
-## Quick setup
+## Files
+- `index.html` — website content
+- `style.css` — responsive visual design
+- `script.js` — mobile navigation
 
-1. Create a new GitHub repository.
-2. Upload `index.html`, `style.css`, and `script.js`.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select your main branch and `/ (root)`.
-6. Save. GitHub will provide your Pages URL.
+## Current contact links
+- Email: `contact@sathishrao.com`
+- LinkedIn: `https://www.linkedin.com/in/sathishrao`
+- Google Scholar: `https://scholar.google.com/citations?user=thGRvxwAAAAJ&hl=en`
+- ResearchGate: `https://www.researchgate.net/profile/Sathish-Rao-4`
 
-## Personalize
+## Publishing
+Repository: `zathiz/sathishrao.com`
 
-Search the files for:
-- `YOUR NAME`
-- `your.email@example.com`
-- LinkedIn URL
-- Project descriptions
-- Experience dates/details
+GitHub → Settings → Pages → Deploy from branch → `main` → `/ (root)`.
 
-The design is intentionally easy to customize without a framework or build process.
+Custom domain: `sathishrao.com`
+
+## Future additions
+Professional photography can be inserted into the existing portrait area. Additional source documents can later be used to expand biography, speaking, memberships, media, project evidence and other professional sections without changing DNS/domain settings.
+
+## Content approach
+The public-facing narrative intentionally emphasizes U.S. transportation engineering, research, operational impact, leadership, professional service and recognition rather than presenting the site as a chronological resume. It does not include Arun Excello or geographic references to India/Chennai.
