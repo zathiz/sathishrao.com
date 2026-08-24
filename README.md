@@ -27,7 +27,8 @@ Professional photography can be inserted into the existing portrait area. Additi
 The public-facing narrative intentionally emphasizes U.S. transportation engineering, research, operational impact, leadership, professional service and recognition rather than presenting the site as a chronological resume. It does not include Arun Excello or geographic references to India/Chennai.
 
 
-## Version 8
-- Added seven professional/industry photos.
-- Removed the Professional Standing explanatory sentence.
-- Changed the FDOT impact tile header to `FDOT DISTRICTS` while retaining Districts 2, 4 and 6 in the supporting content.
+## Version 9
+- Removed all photographs and photo placeholders; hero is now content-only.
+- Increased spacing below “Five dimensions of professional contribution.”
+- Updated 2026 ITE recognition labels.
+- Added the 2020 UAGC Leadership Development Grant.
