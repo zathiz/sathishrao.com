@@ -54,3 +54,105 @@
 @media(max-width:620px){
   #impact .impact-cards{grid-template-columns:1fr}
 }
+
+
+/* Version 8 — professional photography */
+.hero-portrait{
+  margin:0;
+  width:min(360px,100%);
+  justify-self:end;
+  border:1px solid rgba(255,255,255,.13);
+  background:#111b2d;
+  box-shadow:0 28px 70px rgba(0,0,0,.28);
+  overflow:hidden;
+}
+.hero-portrait img{
+  display:block;
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  object-position:center 18%;
+}
+
+.photo-showcase{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  margin-top:36px;
+}
+.professional-photo,
+.career-photo-feature,
+.research-photo-feature{
+  margin:0;
+  background:var(--paper);
+  border:1px solid var(--line);
+  overflow:hidden;
+}
+.professional-photo img{
+  display:block;
+  width:100%;
+  height:310px;
+  object-fit:cover;
+}
+.professional-photo figcaption,
+.career-photo-feature figcaption,
+.research-photo-feature figcaption{
+  padding:13px 16px 15px;
+  color:var(--muted);
+  font-size:10px;
+  letter-spacing:.035em;
+}
+
+#leadership .professional-photo{
+  background:#101a2b;
+  border-color:#2b394e;
+}
+#leadership .professional-photo figcaption,
+#recognition .professional-photo figcaption{
+  color:#8d99aa;
+}
+#recognition .professional-photo{
+  background:var(--dark);
+  border-color:#2b394e;
+}
+
+.career-photo-feature{
+  margin-top:24px;
+  background:#101a2b;
+  border-color:#2d3a4f;
+}
+.career-photo-feature img{
+  display:block;
+  width:100%;
+  max-height:520px;
+  object-fit:cover;
+  object-position:center 48%;
+}
+.career-photo-feature figcaption{
+  color:#8d99aa;
+}
+
+.research-photo-feature{
+  margin-top:18px;
+}
+.research-photo-feature img{
+  display:block;
+  width:100%;
+  max-height:580px;
+  object-fit:cover;
+  object-position:center 45%;
+}
+
+.recognition-photo-row{
+  margin-top:28px;
+}
+
+@media(max-width:1000px){
+  .hero-portrait{justify-self:start;max-width:330px}
+}
+@media(max-width:700px){
+  .photo-showcase{grid-template-columns:1fr}
+  .professional-photo img{height:auto;max-height:480px}
+  .career-photo-feature img,
+  .research-photo-feature img{height:auto;max-height:none}
+}
