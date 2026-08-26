@@ -85,3 +85,19 @@
 #standing .standing-grid{
   margin-top:0;
 }
+
+/* Version 11 — biography and featured research refinements */
+#biography .copy .bio-subhead{font-size:20px;margin:0 0 14px;color:var(--ink)}
+#biography .copy .bio-subhead:not(:first-child){margin-top:34px}
+#biography .bio-list{margin:0 0 24px;padding-left:20px}
+#biography .bio-list li{margin:0 0 12px;color:var(--muted)}
+#biography .bio-list strong{color:var(--ink)}
+.featured-research-links{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+.featured-research-card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);padding:28px;min-height:285px;transition:.2s}
+.featured-research-card:hover{transform:translateY(-2px);border-color:#aeb8c5}
+.featured-research-card>span{font-size:9px;letter-spacing:.16em;color:#697587;font-weight:700}
+.featured-research-card h3{font-size:21px;margin:35px 0 10px}
+.featured-research-card p{font-size:12px;color:var(--muted);margin:0 0 20px}
+.featured-research-card b{margin-top:auto;font-size:10px;color:#4f5c6f}
+@media(max-width:1000px){.featured-research-links{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.featured-research-links{grid-template-columns:1fr}}
