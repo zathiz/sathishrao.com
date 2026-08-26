@@ -101,3 +101,64 @@
 .featured-research-card b{margin-top:auto;font-size:10px;color:#4f5c6f}
 @media(max-width:1000px){.featured-research-links{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.featured-research-links{grid-template-columns:1fr}}
+
+
+/* Version 12 — typography and research prominence refinements */
+
+/* Slightly larger navigation and section-label typography throughout. */
+.brand{font-size:20px}
+.nav-links{font-size:12px}
+.eyebrow{font-size:11px}
+.credentials span{font-size:11px}
+.impact-grid span{font-size:11px}
+
+/* Section tile labels / dates / identifiers. */
+.lead-grid span,
+.impact-cards article>span,
+.research-grid article>span,
+.recognition-grid article>span,
+.membership-grid article>span{
+  font-size:10px;
+}
+.standing-grid span{font-size:11px}
+#career .career-date{font-size:10px}
+.pub-kicker{font-size:10px}
+.featured-research-card>span{font-size:10px}
+.media-archive span{font-size:10px}
+
+/* Slightly more readable small supporting links and credential labels. */
+.mini-links a,
+.archive-link{font-size:11px}
+.credential-list b{font-size:14px}
+.credential-list span{font-size:13px}
+
+/* Give the three federal/national research cards modest added visual weight. */
+.featured-research-links{
+  gap:20px;
+  margin-top:22px;
+}
+.featured-research-card{
+  border:1px solid #cbd3dc;
+  border-top:3px solid var(--accent);
+  background:linear-gradient(180deg,#ffffff 0%,#f8fafc 100%);
+  box-shadow:0 10px 24px rgba(8,17,31,.06);
+  padding:30px;
+  min-height:300px;
+}
+.featured-research-card:hover{
+  transform:translateY(-3px);
+  border-color:#aeb8c5;
+  box-shadow:0 14px 30px rgba(8,17,31,.09);
+}
+.featured-research-card h3{font-size:22px}
+.featured-research-card p{font-size:13px}
+.featured-research-card b{
+  font-size:11px;
+  color:#24354a;
+}
+
+/* Footer now contains only the copyright. */
+.footer-inner{
+  justify-content:flex-start;
+  font-size:10px;
+}

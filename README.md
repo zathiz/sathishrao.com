@@ -32,3 +32,12 @@ The public-facing narrative intentionally emphasizes U.S. transportation enginee
 - Increased spacing below “Five dimensions of professional contribution.”
 - Updated 2026 ITE recognition labels.
 - Added the 2020 UAGC Leadership Development Grant.
+
+
+## Version 12
+- Renamed ResearchGate and Google Scholar links without “Open”.
+- Replaced the three featured research “Open source” labels with institution-specific names.
+- Added subtle emphasis to the Library of Congress, TRB, and FHWA research cards.
+- Slightly increased navigation, section-label, tile-label, date, and credential typography.
+- Changed Contact button label to “Email ↗”.
+- Footer now displays only “© 2026 SATHISH RAO”.
