@@ -41,3 +41,9 @@ The public-facing narrative intentionally emphasizes U.S. transportation enginee
 - Slightly increased navigation, section-label, tile-label, date, and credential typography.
 - Changed Contact button label to “Email ↗”.
 - Footer now displays only “© 2026 SATHISH RAO”.
+
+
+## Version 13 — Final
+- Increased navigation, section labels, tile labels, dates, body copy, compact links, and credential typography for improved readability.
+- Strengthened the three high-impact research cards with a light shaded gradient, accent top border, soft highlight, deeper shadow, and stronger hover treatment.
+- Preserved all Version 12 content and SEO files.

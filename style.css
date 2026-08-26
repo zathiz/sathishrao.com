@@ -162,3 +162,114 @@
   justify-content:flex-start;
   font-size:10px;
 }
+
+
+/* Version 13 FINAL — readability and featured research emphasis */
+
+/* Global readability: slightly larger without changing the visual hierarchy. */
+body{font-size:16px}
+
+/* Header / navigation */
+.brand{font-size:22px}
+.nav-links{font-size:13px}
+
+/* Section labels and small uppercase headings */
+.eyebrow{font-size:12px}
+.lead-grid span,
+.impact-cards article>span,
+.research-grid article>span,
+.recognition-grid article>span,
+.membership-grid article>span{font-size:11px}
+.standing-grid span{font-size:12px}
+.pub-kicker{font-size:11px}
+.featured-research-card>span{font-size:11px}
+.media-archive span{font-size:11px}
+#career .career-date{font-size:11px}
+
+/* Supporting body copy and labels */
+.hero-lead{font-size:18px}
+.copy{font-size:16px}
+.copy p{font-size:16px}
+.bio-list{font-size:15px}
+.lead-grid p{font-size:14px}
+.impact-cards p{font-size:14px}
+.standing-grid p{font-size:13px}
+.career-card p{font-size:14px}
+.research-hero p{font-size:14px}
+.research-grid p{font-size:13px}
+.recognition-grid article p{font-size:13px}
+.membership-grid p{font-size:13px}
+.media-archive b{font-size:15px}
+.credential-list b{font-size:15px}
+.credential-list span{font-size:14px}
+
+/* Links and compact UI text */
+.mini-links a,
+.archive-link,
+.standing-grid a,
+.membership-grid a{font-size:12px}
+.credentials span{font-size:12px}
+.impact-grid span{font-size:12px}
+
+/* Featured research cards: clearly more prominent, still professional. */
+.featured-research-links{
+  gap:22px;
+  margin-top:26px;
+}
+.featured-research-card{
+  position:relative;
+  overflow:hidden;
+  border:1px solid #b9c5d3;
+  border-top:4px solid var(--accent);
+  background:
+    radial-gradient(circle at 88% 12%, rgba(200,244,109,.18), transparent 34%),
+    linear-gradient(155deg,#ffffff 0%,#f4f8fb 55%,#eef3f8 100%);
+  box-shadow:0 14px 34px rgba(8,17,31,.10);
+  padding:32px;
+  min-height:320px;
+}
+.featured-research-card::after{
+  content:"";
+  position:absolute;
+  width:120px;
+  height:120px;
+  right:-45px;
+  bottom:-45px;
+  border-radius:50%;
+  background:rgba(200,244,109,.16);
+  pointer-events:none;
+}
+.featured-research-card:hover{
+  transform:translateY(-5px);
+  border-color:#8fa0b3;
+  box-shadow:0 20px 42px rgba(8,17,31,.15);
+}
+.featured-research-card h3{
+  font-size:24px;
+  margin-top:38px;
+}
+.featured-research-card p{font-size:14px}
+.featured-research-card b{
+  position:relative;
+  z-index:1;
+  font-size:12px;
+  color:#132238;
+  display:inline-block;
+  margin-top:18px;
+  padding:7px 10px;
+  border:1px solid #c7d1dc;
+  border-radius:4px;
+  background:rgba(255,255,255,.72);
+}
+
+/* Keep footer intentionally minimal. */
+.footer-inner{font-size:11px}
+
+/* Mobile readability tuning */
+@media(max-width:620px){
+  body{font-size:15px}
+  .nav-links{font-size:13px}
+  .hero-lead{font-size:17px}
+  .eyebrow{font-size:11px}
+  .featured-research-card h3{font-size:22px}
+}
