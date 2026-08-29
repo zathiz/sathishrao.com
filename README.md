@@ -47,3 +47,9 @@ The public-facing narrative intentionally emphasizes U.S. transportation enginee
 - Increased navigation, section labels, tile labels, dates, body copy, compact links, and credential typography for improved readability.
 - Strengthened the three high-impact research cards with a light shaded gradient, accent top border, soft highlight, deeper shadow, and stronger hover treatment.
 - Preserved all Version 12 content and SEO files.
+
+
+## Version 14
+- Refined membership titles and descriptions.
+- Removed membership organization links.
+- Removed six specified media entries while retaining the remaining media/public-sector references.
