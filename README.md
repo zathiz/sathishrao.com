@@ -47,3 +47,12 @@ The public-facing narrative intentionally emphasizes U.S. transportation enginee
 - Increased navigation, section labels, tile labels, dates, body copy, compact links, and credential typography for improved readability.
 - Strengthened the three high-impact research cards with a light shaded gradient, accent top border, soft highlight, deeper shadow, and stronger hover treatment.
 - Preserved all Version 12 content and SEO files.
+
+
+## Version 16
+- Removed “acclaimed” from the opening profile statement.
+- Refined Biography language for scholarly contributions and strategic advisory work.
+- Renamed the five Professional Standing dimensions without altering their supporting content.
+- Updated the Library of Congress featured research tile and removed the Dixon et al. archive item.
+- Removed the 2018 AECOM High Performance Award and 2013 Amazon 100% Quality Award.
+- Updated the PMI/PMP membership description.
